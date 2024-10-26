@@ -1,5 +1,3 @@
-````markdown:cursor-kb/openai-fine-tuning.md
-
 # Fine-tuning
 
 Fine-tuning lets you get more out of the models available through the API by providing:
@@ -560,5 +558,3 @@ The `/v1/fine-tunes` endpoint has been deprecated in favor of the `/v1/fine_tuni
 For users migrating from `/v1/fine-tunes` to the updated `/v1/fine_tuning/jobs` API and newer models, the main difference you can expect is the updated API. The legacy prompt completion pair data format has been retained for the updated `babbage-002` and `davinci-002` models to ensure a smooth transition. The new models will support fine-tuning with 4k token context and have a knowledge cutoff of September 2021.
 
 For most tasks, you should expect to get better performance from `gpt-4o-mini` than from the GPT base models.
-
-````
